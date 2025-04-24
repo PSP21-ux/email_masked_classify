@@ -2,7 +2,7 @@ import logging
 from openai import OpenAI
 
 # Initialize OpenAI client with hardcoded API key
-client = OpenAI(api_key="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+client = OpenAI(api_key="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")
 
 # Define the categories for classification
 CATEGORIES = ["Billing Issues", "Technical Support", "Account Management"]
